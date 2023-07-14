@@ -56,9 +56,6 @@ const cn = {
     Typing: "正在输入…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
-      if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "Enter 换行";
-      }
       return inputHints + "";
     },
     Send: "发送",
