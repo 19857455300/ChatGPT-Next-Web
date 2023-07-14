@@ -964,11 +964,7 @@ export function Chat() {
                             />
                           ) : (
                             <>
-                              <ChatAction
-                                text={Locale.Chat.Actions.Retry}
-                                icon={<ResetIcon />}
-                                onClick={() => onResend(message)}
-                              />
+
 
                               <ChatAction
                                 text={Locale.Chat.Actions.Copy}
