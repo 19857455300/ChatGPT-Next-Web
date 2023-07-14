@@ -59,7 +59,7 @@ const en: LocaleType = {
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} to send`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += ", Shift + Enter to wrap";
+        inputHints += "Enter to wrap";
       }
       return inputHints + "";
     },
