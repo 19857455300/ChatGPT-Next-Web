@@ -155,9 +155,8 @@ export function SideBar(props: { className?: string }) {
             <IconButton
               icon={<CloseIcon />}
               onClick={async () => {
-                if (await showConfirm(Locale.Home.DeleteChat)) {
-                  chatStore.deleteSession(chatStore.currentSessionIndex);
-                }
+                  chatStore.deleteSession(chatStore.currentSessionIndex)
+            
               }}
             />
           </div>
