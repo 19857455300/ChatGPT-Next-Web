@@ -57,7 +57,7 @@ const cn = {
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter 换行";
+        inputHints += "Enter 换行";
       }
       return inputHints + "";
     },
